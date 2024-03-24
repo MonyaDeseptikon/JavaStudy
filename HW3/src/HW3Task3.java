@@ -1,2 +1,2 @@
-public class HW3Task3 {
+package PACKAGE_NAME;public class HW3Task3 {
 }
