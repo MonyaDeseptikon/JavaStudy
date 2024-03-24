@@ -67,6 +67,7 @@ public class Task2 {
             arr = Arrays.stream(args[0].split(", "))
                     .mapToInt(Integer::parseInt)
                     .toArray();
+
         }
         BubbleSort ans = new BubbleSort();
         ans.sort(arr);
