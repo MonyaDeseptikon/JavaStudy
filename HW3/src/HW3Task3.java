@@ -17,7 +17,7 @@ class AnswerTask3 {
         System.out.println(al);
         System.out.println("Minimum is " + al.stream().min(Integer::compareTo).orElse(null));
         System.out.println("Maximum is " + al.stream().max(Integer::compareTo).orElse(null));
-        System.out.println("Average is " + al.stream().mapToDouble(value -> value).average().orElse(0));
+        System.out.println("Average is = " + al.stream().mapToDouble(value -> value).average().orElse(0));
     }
 }
 
