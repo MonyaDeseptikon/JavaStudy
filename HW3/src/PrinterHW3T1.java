@@ -1,5 +1,5 @@
 /*Внутри класса MergeSort напишите метод mergeSort, который принимает массив целых чисел, реализует алгоритм сортировки слиянием. Метод должен возвращать отсортированный массив.
-*/
+ */
 
 import java.util.Arrays;
 
@@ -56,9 +56,10 @@ class MergeSort {
 //        }
 //        System.out.println(Arrays.toString(buffer));
 
-        return SortUnsorted( a, 0, a.length-1);
+        return SortUnsorted(a, 0, a.length - 1);
 
     }
+
     private static int[] SortUnsorted(int[] a, int lo, int hi) {
 
         if (hi <= lo)
