@@ -21,8 +21,6 @@ class RentCalc{
         return result/100;
     }
 }
-
-
 public class Main {
     public static void main(String[] args) {
         double PL = 102.3; //Площадь сооружения, кв.м.
