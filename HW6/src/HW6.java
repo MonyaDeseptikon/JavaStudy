@@ -62,7 +62,15 @@ class PB implements Comparable<PB> {
         this.phones.add(ph);
     }
 
-    @Override
+//    @Override
+//    public String toString() {
+//        return "PB{" +
+//                "name='" + name + '\'' +
+//                ", phones=" + phones +
+//                '}';
+//    }
+
+        @Override
     public String toString() {
         return this.name + this.phones;
     }
