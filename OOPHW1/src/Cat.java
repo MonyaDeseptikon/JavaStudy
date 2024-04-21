@@ -10,7 +10,7 @@ public class Cat extends Animal{
 
     @Override
     protected void walk() {
-        System.out.println("Cat walks");
+        System.out.printf("%s %s walks \n",getClass().getSimpleName() ,name);
     }
 
     @Override

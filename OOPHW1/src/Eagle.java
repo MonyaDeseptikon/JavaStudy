@@ -8,6 +8,6 @@ public class Eagle extends Animal{
 
     @Override
     protected void fly() {
-        System.out.println("Eagle flying");
+        System.out.printf("%s %s flying \n",getClass().getSimpleName() ,name);
     }
 }

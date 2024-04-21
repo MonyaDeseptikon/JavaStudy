@@ -19,6 +19,8 @@ public class Main {
         donald.fly();
         donald.swim();
         donald.walk();
+        barsik.walk();
+
             }
 }
 

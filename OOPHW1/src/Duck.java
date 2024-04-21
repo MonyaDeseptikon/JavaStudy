@@ -8,11 +8,11 @@ public class Duck extends Animal{
 
     @Override
     protected void fly() {
-        System.out.println("Duck flying");
+        System.out.printf("%s %s flying \n",getClass().getSimpleName() ,name);
     }
 
     @Override
     protected void swim() {
-        System.out.println("Duck swimming");
+        System.out.printf("%s %s swimming \n",getClass().getSimpleName() ,name);
     }
 }
