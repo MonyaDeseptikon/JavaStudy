@@ -18,8 +18,8 @@ public class Main {
         barsik.fly();
         donald.fly();
         donald.swim();
-        donald.walk();
-        barsik.walk();
+        //donald.walk();
+        ((Cat) barsik).walk();
 
             }
 }

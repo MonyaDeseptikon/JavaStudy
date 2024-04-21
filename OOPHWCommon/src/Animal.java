@@ -16,11 +16,11 @@ public class Animal {
         this.owner = owner;
     }
 
-    protected void walk() {    }
-
-    protected void fly() {    }
-
-    protected void swim() {    }
+//    protected void walk() {    }
+//
+//    protected void fly() {    }
+//
+//    protected void swim() {    }
 
     private void wakeup() {
         System.out.println("Animal is wake up");
