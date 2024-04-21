@@ -1,3 +1,5 @@
+package Animals;
+
 import java.time.LocalDate;
 import java.util.List;
 
@@ -11,11 +13,12 @@ public class Cat extends Animal implements Walkable{
     @Override
     public double walk() {
         System.out.printf("%s %s walks \n",getClass().getSimpleName() ,name);
+        return 30.0;
     }
 
     @Override
     public String toString() {
-        return "Cat{" +
+        return "Animals.Cat{" +
                              "owner='" + owner + '\'' +
                 ", illness='" + illness + '\'' +
                 ", vaccinations=" + vaccinations +

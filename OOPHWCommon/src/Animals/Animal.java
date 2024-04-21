@@ -1,3 +1,5 @@
+package Animals;
+
 import java.time.LocalDate;
 import java.util.List;
 
@@ -23,23 +25,23 @@ public class Animal {
 //    protected void swim() {    }
 
     private void wakeup() {
-        System.out.println("Animal is wake up");
+        System.out.println("Animals.Animal is wake up");
     }
 
     private void wakeup(int time) {
-        System.out.println("Animal is wake up in " + time);
+        System.out.println("Animals.Animal is wake up in " + time);
     }
 
     private void eat() {
-        System.out.println("Animal is ate");
+        System.out.println("Animals.Animal is ate");
     }
 
     private void play() {
-        System.out.println("Animal played");
+        System.out.println("Animals.Animal played");
     }
 
     private void sleep() {
-        System.out.println("Animal sleeping");
+        System.out.println("Animals.Animal sleeping");
     }
 
     public void lifeCycle() {
@@ -72,7 +74,7 @@ public class Animal {
 
     @Override
     public String toString() {
-        return "Animal{" +
+        return "Animals.Animal{" +
                 "name='" + name + '\'' +
                 ", birthDay=" + birthDay +
                 ", vaccinations=" + vaccinations +
