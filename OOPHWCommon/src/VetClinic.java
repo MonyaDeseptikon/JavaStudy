@@ -1,4 +1,6 @@
 import Animals.*;
+import Personal.Doctor;
+import Personal.Nurse;
 
 import java.util.*;
 
@@ -9,6 +11,7 @@ public class VetClinic {
     private List<Swimmable> swimmables = new ArrayList<>();
     private List<Doctor> doctors = new ArrayList<>();
     private List<Nurse> nurses = new ArrayList<>();
+int index = 0;
 
     public void addPacients(Animal... a) {
         Collections.addAll(pacients, a);
@@ -48,6 +51,5 @@ public class VetClinic {
         }
         return swimmables;
     }
-
 
 }

@@ -1,3 +1,5 @@
+package Personal;
+
 public class Nurse {
     private String name;
     private String gender= "женский";

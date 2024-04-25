@@ -2,11 +2,11 @@ import Animals.Animal;
 import Animals.Cat;
 import Animals.Duck;
 import Animals.Eagle;
+import Personal.Doctor;
+import Personal.Nurse;
 
-import javax.print.Doc;
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
