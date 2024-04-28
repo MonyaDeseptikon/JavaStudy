@@ -41,7 +41,7 @@ public class Pharmacy implements Iterator<Component>, Comparable<Pharmacy> {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Pharmacy pharmacy = (Pharmacy) o;
-        return Objects.equals(components, pharmacy.components);
+        return Objects.equals(this.components, pharmacy.components);
     }
 
     @Override

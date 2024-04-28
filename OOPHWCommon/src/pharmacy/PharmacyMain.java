@@ -32,9 +32,7 @@ public class PharmacyMain {
         while (iR.hasNext()) {
             System.out.println(iR.next());
         }
-        for(int i=0; i<result.size(); i++){
-
-        }
+        System.out.println(result.hashCode());
 
 //        System.out.println(pharmacy1);
 //        System.out.println(pharmacy2);
