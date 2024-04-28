@@ -1,3 +1,4 @@
+/*Смог сделать только когда узнал, что ext - это указатель*/
 package list;
 
 import java.util.Iterator;
