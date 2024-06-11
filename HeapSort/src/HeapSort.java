@@ -18,6 +18,7 @@ public class HeapSort
 
             // Вызываем процедуру heapify на уменьшенной куче
             heapify(arr, i, 0);
+
         }
     }
 
