@@ -7,18 +7,17 @@ public class Employees {
     private LocalDate birthDate;
     private String position;
     private double salary;
+    private Gender gender;
 
-    public Employees(String firstName, String lastName, LocalDate birthDate, String position, double salary) {
+    public Employees(String firstName, String lastName, LocalDate birthDate, String position, double salary, Gender gender) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.birthDate = birthDate;
         this.position = position;
         this.salary = salary;
+        this.gender = gender;
     }
 
-
-
-    
     public static Comparator<Employees> birthDateComparator() {
         return Comparator.comparing(employee -> employee.birthDate);
     }
@@ -37,6 +36,10 @@ public class Employees {
         return salary;
     }
 
+    public Gender getGender() {
+        return gender;
+    }
+
     public void setSalary(double salary) {
         this.salary = salary;
     }
@@ -49,6 +52,7 @@ public class Employees {
                 ", birthDate=" + birthDate +
                 ", position='" + position + '\'' +
                 ", salary=" + salary +
+                ", gender=" + gender +
                 '}';
     }
 }
