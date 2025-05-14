@@ -1,8 +1,8 @@
 public class Employee {
-    private int employeeId;
-    private String phoneNumber;
-    private String name;
-    private int experience;
+    private  int employeeId;
+    private  String phoneNumber;
+    private  String name;
+    private  int experience;
 
     public Employee(int employeeId, String phoneNumber, String name, int experience) {
         this.employeeId = employeeId;
@@ -29,7 +29,7 @@ public class Employee {
 
     @Override
     public String toString() {
-        return  "табельный номер = " + employeeId +
+        return  '\n'+"табельный номер = " + employeeId +
                 ", номер телефона = '" + phoneNumber + '\'' +
                 ", имя = '" + name + '\'' +
                 ", стаж = " + experience;
